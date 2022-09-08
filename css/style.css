@@ -106,8 +106,8 @@ p {
 }
 
 .bg-img-fixed {
-    background-image: url("../images/image15.png");
-    height: 350px;
+    background-image: url("../images/image-15.png");
+    height: 425px;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -332,7 +332,7 @@ footer {
 
 
 .banner-section-main {
-    background-image: url("../images/image\ 25.png");
+    background-image: url("../images/image-25.png");
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -461,7 +461,9 @@ footer {
         justify-content: center;
         margin-bottom: 40px;
     }
-
+    .review-content{
+        font-size: 11px;
+    }
     .footer_widget .widget3 p {
         max-width: 100%;
         text-align: center;
@@ -501,5 +503,9 @@ footer {
     ul.nav {
         justify-content: center;
 
+    }
+    .banner-title {
+        justify-content: center;
+        text-align: center;
     }
 }
