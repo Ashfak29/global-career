@@ -426,9 +426,11 @@ footer {
 /* responsive css start */
 @media only screen and (max-width: 600px) {
     .custom-caption h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
-
+    .custom-caption p{
+        display: none;
+    }
     .limitless-learning-img img {
         width: 250px;
         height: 250px;
@@ -438,7 +440,12 @@ footer {
         margin-top: 50px;
         text-align: center;
     }
-
+    .limitless-learning {
+        margin: 0;
+    }
+    .limitless-des{
+        margin-bottom: 20px;
+    }
     .right-border {
         border-right: none;
     }
